@@ -1,32 +1,28 @@
 # Dependencies
 markdown:         redcarpet
-highlighter:      pygments
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+# relative_permalinks: true
 
 # Setup
-title:            Kuntanury
+title:            田坤
 email:            kuntanury@gmail.com
-tagline:          'A Jekyll theme'
+tagline:          'Kuntanury blog'
 description:      "iOS Mobile Developer"
 baseurl:          /
 
 author:
-  name:           'Kuntanury'
-  url:            http://kuntanury.com
-
-paginate:         5
-
-# Custom vars
-version:          2.1.0
+  name:           Kuntanury
+  url:            "http://kuntanury.com"
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/Kuntanury/Kuntanury.github.io
+
+gems:             [jekyll-paginate]
+paginate:         5
+paginate_path:    "page:num"
 
 twitter_username: Kuntanury
 github_username:  Kuntanury
-
-# Site settings
-title:            Kuntanury's Home Page
