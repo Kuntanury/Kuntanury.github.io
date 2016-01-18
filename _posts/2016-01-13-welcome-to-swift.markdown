@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: 从零开始Swift - TableView
 ---
 
@@ -39,7 +40,7 @@ class ViewController: UIViewController {
 
     var showNameArray :[String] = ["Hello", "World"]
     @IBOutlet weak var showNameTableView: UITableView!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -69,11 +70,11 @@ class ViewController: UIViewController {
  	func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 0
     }
-    
+
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         return UITableViewCell()
     }
-    
+
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
     }
 ~~~
@@ -85,35 +86,35 @@ class ViewController: UIViewController {
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return showNameArray.count
     }
-    
+
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        
+
         if let cell:UITableViewCell = tableView.dequeueReusableCellWithIdentifier("Cell") {
-            
+
             cell.textLabel?.text = showNameArray[indexPath.row];
-            
+
             cell.selectionStyle = UITableViewCellSelectionStyle.None
-            
+
             return cell
         } else {
             let cell = UITableViewCell.init(style: UITableViewCellStyle.Default, reuseIdentifier: "Cell");
-            
+
             cell.selectionStyle = UITableViewCellSelectionStyle.None
-            
+
             cell.textLabel?.text = showNameArray[indexPath.row];
-            
+
             return cell
         }
-        
+
 
     }
-    
+
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        
+
     }
 ~~~
 
 ok,一个小小的TableView就此完成
 
 ##后记
-整个小demo写下来给我一种回到学校的感觉，这个是变量，这个是类，类要继承方法，init get set，整个写下来还是挺好玩的，坚持下去。
+整个小demo写下来给我一种回到学校的感觉，这个是变量，这个是类，类要继承方法，init get set，写下来还是挺好玩的，坚持下去。
