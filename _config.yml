@@ -34,7 +34,7 @@ github_username:  Kuntanury
 comments :
   provider : disqus
   disqus :
-    short_name : jekyllbootstrap
+    short_name : kuntanury
   livefyre :
     site_id : 123
   intensedebate :
