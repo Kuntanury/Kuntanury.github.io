@@ -16,9 +16,7 @@ title: Home
 
     <!-- {{ post.content }} -->
     {{ post.content | truncatewords:10}}<br>
-    <div class="right">
-        <a href="{{ post.url }}">Read more...</a><br><br>
-    </div>
+    <a href="{{ post.url }}">Read more...</a><br><br>
   </div>
   {% endfor %}
 </div>
