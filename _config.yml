@@ -13,12 +13,14 @@ tagline:          'Kuntanury blog'
 description:      "iOS Mobile Developer"
 baseurl:          /
 
+swift_dir:        ./_posts/_swift
+
 author:
   name:           Kuntanury
   url:            "http://kuntanury.com"
 
 github:
-  repo:           https://github.com/Kuntanury/Kuntanury.github.io
+  repo:           https://github.com/Kuntanury/
 
 gems:             [jekyll-paginate]
 paginate:         5
