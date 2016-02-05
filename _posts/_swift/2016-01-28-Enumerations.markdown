@@ -1,4 +1,9 @@
-#Enumerations - Swift知识集
+---
+layout: post
+comments: true
+title: Enumerations - Swift知识集
+category: swift
+---
 
 ##枚举
 * **枚举值（Raw Value）**

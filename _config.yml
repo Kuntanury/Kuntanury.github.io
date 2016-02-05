@@ -13,7 +13,7 @@ tagline:          'Kuntanury blog'
 description:      "iOS Mobile Developer"
 baseurl:          /
 
-swift_dir:        _posts/_swift/
+swift_dir:        /posts/_swift/
 
 author:
   name:           Kuntanury
