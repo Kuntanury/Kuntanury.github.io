@@ -14,7 +14,6 @@ description:      "iOS Mobile Developer"
 baseurl:          /
 
 swift_dir:        /posts/_swift/
-input_dir:        /posts/_input/
 
 author:
   name:           Kuntanury

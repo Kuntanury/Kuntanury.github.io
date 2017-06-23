@@ -4,40 +4,7 @@ title: "404: Page not found"
 permalink: 404.html
 ---
 
-<!-- <div class="page">
+<div class="page">
   <h1 class="page-title">404: Page not found</h1>
   <p class="lead">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="{{ site.baseurl }}">Head back home</a> to try finding it again.</p>
-</div> -->
-
-
-
-
-<html>
-<head>
-    <script type="text/javascript" src="ReadTest.js">
-    var a=new Array();
-
-    function handleFileSelect(evt) {
-        var files = evt.target.files; // FileList object
-        if(files[0])
-        {
-            var reader = new FileReader();
-            reader.readAsText(files[0]);
-            reader.onload = loaded;
-        }
-    }
-
-    function loaded(evt) {
-        var fileString = evt.target.result;
-        alert(fileString);
-    }
-    </script>
- </head>
-<body>
-    <input type="file" id="file" name="files[]" multiple />
-    <script type="text/javascript">
-        var btn=document.getElementById('file');
-        btn.addEventListener('change', handleFileSelect, false);
-    </script>
-</body>
-</html>  
+</div>
