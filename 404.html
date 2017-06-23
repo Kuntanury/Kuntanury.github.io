@@ -4,7 +4,47 @@ title: "404: Page not found"
 permalink: 404.html
 ---
 
-<div class="page">
+<!-- <div class="page">
   <h1 class="page-title">404: Page not found</h1>
   <p class="lead">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="{{ site.baseurl }}">Head back home</a> to try finding it again.</p>
-</div>
+</div> -->
+
+
+
+<?php
+
+if($_POST['submit']){
+    //打开文件
+    $fh = fopen('./a.txt',a);
+    //写入内容
+    if($fh){
+        $length = fwrite($fh,$_POST['content']."\r\n");
+        if($length){
+            echo '写入成功';
+        }else{
+            echo '写入失败';
+        }
+        fclose($fh);
+    }else{
+        echo '打开文件出错了';
+    }
+}
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head>
+    <title>文本框数据写入文本文件</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <script type="text/javascript">
+
+    </script>
+</head>
+    <body>
+        <form name = 'frmTxt' action = '' method = 'post'>
+            <textarea cols = '20',rows = '10' name = 'content'></textarea>
+            <input type = 'submit' name = 'submit' value = '提交' />
+        </form>
+    </body>
+</html>
