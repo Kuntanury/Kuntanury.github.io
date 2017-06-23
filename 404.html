@@ -11,40 +11,33 @@ permalink: 404.html
 
 
 
-<?php
 
-if($_POST['submit']){
-    //打开文件
-    $fh = fopen('./a.txt',a);
-    //写入内容
-    if($fh){
-        $length = fwrite($fh,$_POST['content']."\r\n");
-        if($length){
-            echo '写入成功';
-        }else{
-            echo '写入失败';
-        }
-        fclose($fh);
-    }else{
-        echo '打开文件出错了';
-    }
-}
-?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<html>
 <head>
-    <title>文本框数据写入文本文件</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <script type="text/javascript">
+    <script type="text/javascript" src="ReadTest.js">
+    var a=new Array();
 
+    function handleFileSelect(evt) {
+        var files = evt.target.files; // FileList object
+        if(files[0])
+        {
+            var reader = new FileReader();
+            reader.readAsText(files[0]);
+            reader.onload = loaded;
+        }
+    }
+
+    function loaded(evt) {
+        var fileString = evt.target.result;
+        alert(fileString);
+    }
     </script>
-</head>
-    <body>
-        <form name = 'frmTxt' action = '' method = 'post'>
-            <textarea cols = '20',rows = '10' name = 'content'></textarea>
-            <input type = 'submit' name = 'submit' value = '提交' />
-        </form>
-    </body>
-</html>
+ </head>
+<body>
+    <input type="file" id="file" name="files[]" multiple />
+    <script type="text/javascript">
+        var btn=document.getElementById('file');
+        btn.addEventListener('change', handleFileSelect, false);
+    </script>
+</body>
+</html>  
