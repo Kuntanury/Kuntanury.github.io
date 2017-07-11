@@ -1,0 +1,76 @@
+# Site settings
+title: Kuntanury
+SEOTitle: 田坤的博客 | Kuntanury Blog
+header-img: img/home-bg.png
+email: kuntanury@gmail.com
+description: "iOS Developer"
+keyword: "田坤, Kuntanury"
+url: "kuntanury.com"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+
+
+
+# SNS settings
+RSS: false
+weibo_username:     Kuntanury
+zhihu_username:     xiao-xiao-20-88-62
+github_username:    kuntanury
+twitter_username:   Tzhank
+#facebook_username:  huxpro
+# linkedin_username:  firstname-lastname-idxxxx
+
+plugins: [jekyll-paginate]
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+# exclude: ["less","README.md"]
+anchorjs: false                          # if you want to customize anchor. check out line:181 of `post.html`
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+# disqus_username: kuntanury
+
+# Netease setttings
+netease_comment: false
+
+
+
+# Analytics settings
+# Baidu Analytics
+# ba_track_id: [your track id]
+
+# Google Analytics
+ga_track_id: 'UA-72552046-1'            # Format: UA-xxxxxx-xx
+# ga_domain: kuntanury.com
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "一等人忠臣孝子，两件事读书耕田"
+sidebar-avatar: /img/avatar-k.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 0              # A tag will be featured if the size of it is more than this condition value
+# 显示所有大于0篇文章的标签
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: false
