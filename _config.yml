@@ -37,6 +37,7 @@ anchorjs: false                          # if you want to customize anchor. chec
 markdown: kramdown
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
+  syntax_highlighter: rouge
 
 
 
