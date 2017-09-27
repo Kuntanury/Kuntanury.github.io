@@ -1,12 +1,12 @@
 <?php
 
-$response = {
-    "content" => {
+$response = Array(
+    "content" => Array(
       "picUrl" => "Hello PHP",
       "url" => "朱朱的鸡鸡特别小",
       "status" => "阿坤的鸡鸡特别大"
-    }
-  };
+    )
+  );
 
 echo json_encode($response);
 // "content":{
