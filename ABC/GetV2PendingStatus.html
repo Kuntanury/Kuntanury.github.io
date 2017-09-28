@@ -1,11 +1,11 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-
-<body> -->
-
+<head>
+<meta charset="utf-8">
+<!-- header('Content-type: text/json'); -->
+</head>
+<body>
   <?php
-
-  header('Content-type: text/json');
   $response = Array(
       "content" => Array(
         "picUrl" => "Hello PHP",
@@ -17,6 +17,5 @@
   echo json_encode($response);
 
   ?>
-<!--
 </body>
-</html> -->
+</html>
