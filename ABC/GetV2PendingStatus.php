@@ -8,4 +8,3 @@ $response = Array(
     )
   );
 echo json_encode($response);
-?>
