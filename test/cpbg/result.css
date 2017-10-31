@@ -8,7 +8,7 @@
 }
 body{
 	background: #f2f2f2;
-	font-size: 16px;
+	font-size: 40px;
 	font-family: "微软雅黑";
 }
 input{
@@ -273,9 +273,9 @@ button{
 	.centerTop table td{
 		width: 10%;
 		height: 40px;
-		font-size: 14px;
+		font-size: 40px;
 			border: 1px solid #87702b;
-			font-size: 18px;
+			font-size: 40px;
 	}
 	.centerTop input{
 		width: 80%;
@@ -284,7 +284,7 @@ button{
 		border-bottom: 1px solid #663300;
 		background: #fdfcee;
 		border-radius: 0px;
-		font-size: 14px;
+		font-size: 40px;
 	}
 
     .appraisalTab{
@@ -308,7 +308,7 @@ button{
     }
     .appraisalTab table td{
     	height: 60px;
-    	font-size: 14px;
+    	font-size: 40px;
     	border: 1px solid #87702b;
     	text-align: center;
     }
@@ -364,7 +364,7 @@ button{
     	color: #dd262a;
     	border: 2px solid #dd262a;
     	background: #fdfcee;
-    	font-size: 20px;
+    	font-size: 40px;
     	border-radius: 5px;
     }
     .submitBtn{
@@ -373,7 +373,7 @@ button{
     	color: #dd262a;
     	border: 2px solid #dd262a;
     	background: #fdfcee;
-    	font-size: 20px;
+    	font-size: 40px;
     	border-radius: 5px;
     	margin: 30px auto 150px;
     }
@@ -449,7 +449,7 @@ button{
 }
 .centerTop table tr{
 	text-align: center;
-	font-size: 18px;
+	font-size: 40px;
 
 }
 .centerTop table th{
@@ -462,9 +462,9 @@ button{
 	.centerTop table td{
 		width: 10%;
 		height: 40px;
-		font-size: 14px;
+		font-size: 40px;
 			border: 1px solid #87702b;
-			font-size: 18px;
+			font-size: 40px;
 	}
 	.centerTop input{
 		width: 80%;
@@ -473,7 +473,7 @@ button{
 		border-bottom: 1px solid #663300;
 		background: #fdfcee;
 		border-radius: 0px;
-		font-size: 14px;
+		font-size: 40px;
 	}
     .appraisalTab{
     	width: 90%;
@@ -496,7 +496,7 @@ button{
     }
     .appraisalTab table td{
     	height: 60px;
-    	font-size: 18px;
+    	font-size: 40px;
     	border: 1px solid #87702b;
     	text-align: center;
     }
@@ -551,7 +551,7 @@ button{
     	color: #dd262a;
     	border: 2px solid #dd262a;
     	background: #fdfcee;
-    	font-size: 20px;
+    	font-size: 40px;
     	border-radius: 5px;
     }
     .submitBtn{
@@ -560,7 +560,7 @@ button{
     	color: #dd262a;
     	border: 2px solid #dd262a;
     	background: #fdfcee;
-    	font-size: 20px;
+    	font-size: 40px;
     	border-radius: 5px;
     	margin-top: 30px;
     	margin-bottom: 120px;
