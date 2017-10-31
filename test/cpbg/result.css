@@ -53,9 +53,6 @@ button{
        background-size: 100% 100%;
        margin: 0 auto;
 	}
-	.tr {
-		font-size: 40px;
-	}
     .centerTop{
 		width: 90%;
 		margin: 20px auto;
@@ -248,9 +245,6 @@ button{
        background-size: 100% 100%;
        margin: 0 auto;
 	}
-	.tr {
-		font-size: 40px;
-	}
     .centerTop{
 		width: 90%;
 		margin: 30px auto;
@@ -439,15 +433,12 @@ button{
        background-size: 100% 100%;
        margin: 0 auto;
 	}
-	.tr {
-		font-size: 40px;
-	}
     .centerTop{
 		width: 90%;
 		margin: 30px auto;
 		padding-left: 5%;
 		padding-right: 5%;
-		font-size: 40px;
+		font-size: 30px;
 	}
 	.centerTop table{
 		width: 100%;
@@ -578,12 +569,14 @@ button{
     	border: none;
     	border-bottom: 1px solid #663300;
     	background: #fdfcee;
+			font-size: 30px;
     }
     .footerInput{
     	width: 600px;
 		height:380px;
     	text-align: left;
     	margin: 120px auto 20px;
+			font-size: 30px;
     }
     .footerDiv dt{
         display: inline;
