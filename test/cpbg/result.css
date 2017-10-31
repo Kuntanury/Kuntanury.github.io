@@ -53,6 +53,9 @@ button{
        background-size: 100% 100%;
        margin: 0 auto;
 	}
+	.tr {
+		font-size: 40px;
+	}
     .centerTop{
 		width: 90%;
 		margin: 20px auto;
@@ -64,6 +67,7 @@ button{
 		width: 100%;
         border-collapse:collapse;
 	}
+
 	.centerTop table tr{
 		text-align: center;
 	}
@@ -243,6 +247,9 @@ button{
        background: url('/img/abc-english-online.png');
        background-size: 100% 100%;
        margin: 0 auto;
+	}
+	.tr {
+		font-size: 40px;
 	}
     .centerTop{
 		width: 90%;
@@ -431,6 +438,9 @@ button{
        background: url('/img/abc-english-online.png');
        background-size: 100% 100%;
        margin: 0 auto;
+	}
+	.tr {
+		font-size: 40px;
 	}
     .centerTop{
 		width: 90%;
