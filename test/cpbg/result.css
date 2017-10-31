@@ -61,7 +61,7 @@ button{
 		margin: 20px auto;
 		padding-left: 5%;
 		padding-right: 5%;
-		font-size: 20px;
+		font-size: 40px;
 	}
 	.centerTop table{
 		width: 100%;
@@ -256,7 +256,7 @@ button{
 		margin: 30px auto;
 		padding-left: 5%;
 		padding-right: 5%;
-		font-size: 20px;
+		font-size: 40px;
 	}
 	.centerTop table{
 		width: 100%;
@@ -447,7 +447,7 @@ button{
 		margin: 30px auto;
 		padding-left: 5%;
 		padding-right: 5%;
-		font-size: 20px;
+		font-size: 40px;
 	}
 	.centerTop table{
 		width: 100%;
@@ -458,25 +458,26 @@ button{
 		text-align: center;
 	}
     .centerTop table th{
-    	width: 10%;
+    	/*width: 10%;*/
     	height: 60px;
     	border: 1px solid #87702b;
-    	font-size: 18px;
+    	font-size: 40px;
     }
     .centerTop table td{
     	/*width: 10%;*/
     	height: 35px;
-    	font-size: 40px;
+    	font-size: 30px;
         border: 1px solid #87702b;
-        font-size: 40px;
+        font-size: 30px;
     }
     .centerTop input{
-    	width: 80%;
+    	/*width: 80%;*/
     	outline: none;
     	border: none;
     	border-bottom: 1px solid #663300;
     	background: #fdfcee;
     	border-radius: 0px;
+			font-size: 30px;
     }
     .appraisalTab{
     	width: 90%;
@@ -494,12 +495,12 @@ button{
 	}
     .appraisalTab table th{
     	height: 60px;
-    	font-size: 12px;
+    	font-size: 30px;
     	border: 1px solid #87702b;
     }
     .appraisalTab table td{
     	height: 60px;
-    	font-size: 12px;
+    	font-size: 30px;
     	border: 1px solid #87702b;
     	text-align: center;
     }
