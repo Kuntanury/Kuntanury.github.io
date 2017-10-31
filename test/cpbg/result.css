@@ -115,7 +115,7 @@ button{
     }
     .appraisalTab table td{
     	height: 60px;
-    	font-size: 12px;
+    	font-size: 18px;
     	border: 1px solid #87702b;
     }
     .appraisalTab label{
@@ -302,7 +302,7 @@ button{
 	}
     .appraisalTab table th{
     	height: 50px;
-    	font-size: 12px;
+    	font-size: 18px;
     	border: 1px solid #87702b;
     }
     .appraisalTab table td{
@@ -490,12 +490,12 @@ button{
 	}
     .appraisalTab table th{
     	height: 60px;
-    	font-size: 12px;
+    	font-size: 18px;
     	border: 1px solid #87702b;
     }
     .appraisalTab table td{
     	height: 60px;
-    	font-size: 12px;
+    	font-size: 18px;
     	border: 1px solid #87702b;
     	text-align: center;
     }
