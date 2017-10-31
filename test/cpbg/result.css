@@ -68,13 +68,13 @@ button{
 		font-size: 18px;
 
 	}
-    .centerTop table th{
-    	width: 10%;
-    	height: 45px;
-    	font-size: 14px;
-    	border: 1px solid #87702b;
-    	font-size: 20px;
-    }
+	.centerTop table th{
+		width: 10%;
+		height: 45px;
+		font-size: 40px;
+		border: 1px solid #87702b;
+		font-size: 40px;
+	}
     .centerTop table td{
     	width: 10%;
     	height: 40px;
@@ -252,6 +252,7 @@ button{
 	margin: 20px auto;
 	padding-left: 5%;
 	padding-right: 5%;
+	font-size: 40px;
 }
 .centerTop table{
 	width: 100%;
@@ -259,15 +260,15 @@ button{
 }
 .centerTop table tr{
 	text-align: center;
-	font-size: 18px;
+	font-size: 40px;
 
 }
 	.centerTop table th{
 		width: 10%;
 		height: 45px;
-		font-size: 14px;
+		font-size: 40px;
 		border: 1px solid #87702b;
-		font-size: 20px;
+		font-size: 40px;
 	}
 	.centerTop table td{
 		width: 10%;
@@ -451,13 +452,13 @@ button{
 	font-size: 18px;
 
 }
-	.centerTop table th{
-		width: 10%;
-		height: 45px;
-		font-size: 14px;
-		border: 1px solid #87702b;
-		font-size: 20px;
-	}
+.centerTop table th{
+	width: 10%;
+	height: 45px;
+	font-size: 40px;
+	border: 1px solid #87702b;
+	font-size: 40px;
+}
 	.centerTop table td{
 		width: 10%;
 		height: 40px;
