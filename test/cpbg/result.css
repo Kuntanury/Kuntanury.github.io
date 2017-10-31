@@ -1,0 +1,584 @@
+*{padding: 0; margin: 0;}
+.clearfix:after{
+	display: block;
+	height: 0;
+	content: '';
+	visibility: hidden;
+	clear: both;
+}
+body{
+	background: #f2f2f2;
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+input{
+	outline: none;
+	border: none;
+}
+button{
+	outline: none;
+}
+
+/* 当屏幕小于 767 时 */
+@media (max-width: 767px){
+	.main{
+	   width: 100%;
+	   background: url(../img/backgroundImg2.jpg);
+	   background-size: 100% 100%;
+	   margin: 0 auto;     
+	   padding-top: 1px;
+	}
+	.mainBox{
+		width: 80%;
+		margin: 100px auto 0px;
+	}
+	.header{
+        width: 100%;
+        padding-top: 40px;
+	}
+	.header span{
+        display: block;
+	}
+	.logo{
+       width: 90px;
+       height: 50px;
+       background: url('../img/ABC2.png');
+       background-size: 100% 100%;
+       margin: 0px auto 10px;       
+	}
+	.logoImg{
+	   width: 200px;
+       height: 18px;
+       background: url('../img/abc-english-online2.png');
+       background-size: 100% 100%;
+       margin: 0 auto;
+	}
+    .centerTop{
+		width: 90%;
+		margin: 20px auto;
+		padding-left: 5%;	
+		padding-right: 5%;	
+	}
+	.centerTop table{
+		width: 100%;		
+        border-collapse:collapse;
+	}
+	.centerTop table tr{
+		text-align: center;
+	}
+    .centerTop table th{
+    	width: 10%;
+    	height: 45px;
+    	font-size: 10px;
+    	border: 1px solid #87702b;
+    	font-size: 18px;
+    }
+    .centerTop table td{
+    	width: 10%;
+    	height: 40px;
+    	font-size: 12px;
+        border: 1px solid #87702b;
+        font-size: 14px;
+    }
+    .centerTop input{
+    	width: 80%;
+    	outline: none;
+    	border: none;
+    	border-bottom: 1px solid #663300;
+    	background: #fdfcee;
+    	border-radius: 0px;
+    }
+
+    .appraisalTab{
+    	width: 90%;
+		margin: 30px auto 0px;
+		padding-left: 5%;	
+		padding-right: 5%;
+    }
+    .appraisalTab table{
+    	width:  100%;
+    	border-collapse:collapse;
+    	text-align: center;
+    }
+    .centerTop table tr{
+		width:  100%;
+		text-align: center;
+	}
+    .appraisalTab table th{
+    	height: 50px;
+    	font-size: 14px;
+    	border: 1px solid #87702b;
+    }
+    .appraisalTab table td{
+    	height: 60px;
+    	font-size: 12px;
+    	border: 1px solid #87702b;
+    }
+    .appraisalTab label{
+    	display: inline-block;
+    	width: 10%;
+    	float: left;
+    }
+    .appraisalTab span{
+    	display: inline-block;
+    	width: 96%;
+    	margin-left: 2%;
+    	float: left;
+    	text-align: justify;
+    }  
+
+    .footer{
+    	width: 90%;
+		margin: 30px auto 0px;
+		padding-left: 5%;	
+		padding-right: 5%;
+    }
+    .footer table{
+    	width: 100%;
+    	border-collapse:collapse;
+    	font-size: 14px;
+    }
+    .footer table tr{
+    	width:  100%;
+    	height: 50px;
+    	border: 1px solid #87702b;
+		text-align: center;
+    }
+    .footer table td{
+    	width:  100%;
+    	height: 50px;
+    	border: 1px solid #87702b;
+		text-align: center;
+    }
+    .footer table td>p{
+    	display: inline;
+    }
+
+    .footerDiv{
+    	width: 90%;
+		margin: 30px auto 0px;
+		padding-left: 5%;	
+		padding-right: 5%;
+		position: relative;
+		text-align: center;
+    }
+    .operationBtn{
+    	width: 180px;
+    	height: 40px;
+    	color: #dd262a;
+    	border: 2px solid #dd262a;
+    	background: #fdfcee;
+    	font-size: 20px;
+    	border-radius: 5px;
+    }
+    .submitBtn{
+    	width: 200px;
+    	height: 50px;
+    	color: #dd262a;
+    	border: 2px solid #dd262a;
+    	background: #fdfcee;
+    	font-size: 20px;
+    	border-radius: 5px;
+    	margin-top: 30px;
+    	margin-bottom: 100px;
+    }
+
+    .footerDiv input{
+    	width: 80px;
+    	outline: none;
+    	border: none;
+    	border-bottom: 1px solid #663300;
+    	background: #fdfcee;
+    }
+    .footerInput{
+    	text-align: left;
+    	margin: 120px auto 20px;
+    }
+    .footerDiv dt{
+        display: inline;
+    }
+    .footerDiv dd{
+        display: inline;
+    }
+    .seal{
+    	width: 110px;
+    	height: 100px;
+        position: absolute;
+        right: 50px;
+        top: 50px;
+    } 
+}
+
+/* 当屏幕大于 768 小于 979 时 */
+@media  (min-width: 768px) and (max-width: 979px) {
+	.main{
+	   width: 100%;
+	   background: url(../img/backgroundImg2.jpg);
+	   background-size: 100% 100%;
+	   margin: 0 auto;     
+	   overflow: hidden;  
+	}
+	.mainBox{
+		width: 80%;
+		margin: 100px auto 0px;
+	}
+	.header{
+        width: 100%;
+        padding-top: 80px;
+	}
+	.header span{
+        display: block;
+	}
+	.logo{
+       width: 180px;
+       height: 90px;
+       background: url('../img/ABC.png');
+       background-size: 100% 100%;
+       margin: 0px auto 10px;       
+	}
+	.logoImg{
+	   width: 400px;
+       height: 30px;
+       background: url('../img/abc-english-online.png');
+       background-size: 100% 100%;
+       margin: 0 auto;
+	}
+    .centerTop{
+		width: 90%;
+		margin: 30px auto;
+		padding-left: 5%;	
+		padding-right: 5%;	
+	}
+	.centerTop table{
+		width: 100%;		
+        border-collapse:collapse;
+	}
+	.centerTop table tr{
+		width: 80%;
+		text-align: center;
+	}
+    .centerTop table th{
+    	width: 10%;
+    	height: 50px;
+    	font-size: 10px;
+    	border: 1px solid #87702b;
+    	font-size: 18px;
+    }
+    .centerTop table td{
+    	width: 10%;
+    	height: 40px;
+    	font-size: 12px;
+        border: 1px solid #87702b;
+        font-size: 14px;
+    }
+    .centerTop input{
+    	width: 80%;
+    	outline: none;
+    	border: none;
+    	border-bottom: 1px solid #663300;
+    	background: #fdfcee;
+    	border-radius: 0px;
+    }
+
+    .appraisalTab{
+    	width: 90%;
+		margin: 60px auto;
+		padding-left: 5%;	
+		padding-right: 5%;
+    }
+    .appraisalTab table{
+    	width:  100%;
+    	border-collapse:collapse;
+    }
+    .centerTop table tr{
+		width:  100%;
+		text-align: center;
+	}
+    .appraisalTab table th{
+    	height: 50px;
+    	font-size: 12px;
+    	border: 1px solid #87702b;
+    }
+    .appraisalTab table td{
+    	height: 60px;
+    	font-size: 14px;
+    	border: 1px solid #87702b;
+    	text-align: center;
+    }
+    .appraisalTab label{
+    	display: inline-block;
+    	width: 10%;
+    	float: left;
+    }
+    .appraisalTab span{
+    	display: inline-block;
+    	width: 96%;
+    	margin-left: 2%;
+    	float: left;
+    	text-align: justify;
+    }  
+
+    .footer{
+    	width: 90%;
+		margin: 30px auto;
+		padding-left: 5%;	
+		padding-right: 5%;
+    }
+    .footer table{
+    	width: 100%;
+    	border-collapse:collapse;
+    }
+    .footer table tr{
+    	width:  100%;
+    	height: 60px;
+    	border: 1px solid #87702b;
+		text-align: center;
+    }
+    .footer table td{
+    	width:  100%;
+    	border: 1px solid #87702b;
+		text-align: center;
+    }
+    .footer table td>p{
+    	display: inline;
+    }
+
+    .footerDiv{
+    	width: 90%;
+		margin: 30px auto 0px;
+		padding-left: 5%;	
+		padding-right: 5%;
+		position: relative;
+		text-align: center;
+    }
+    .operationBtn{
+    	width: 192px;
+    	height: 45px;
+    	color: #dd262a;
+    	border: 2px solid #dd262a;
+    	background: #fdfcee;
+    	font-size: 20px;
+    	border-radius: 5px;
+    }
+    .submitBtn{
+    	width: 242px;
+    	height: 60px;
+    	color: #dd262a;
+    	border: 2px solid #dd262a;
+    	background: #fdfcee;
+    	font-size: 20px;
+    	border-radius: 5px;
+    	margin: 30px auto 150px;
+    }
+
+    .footerDiv input{
+    	width: 100px;
+    	outline: none;
+    	border: none;
+    	border-bottom: 1px solid #663300;
+    	background: #fdfcee;
+    }
+    .footerInput{
+    	text-align: left;
+    	margin: 150px auto 20px;
+    }
+    .footerDiv dt{
+        display: inline;
+    }
+    .footerDiv dd{
+        display: inline;
+    }
+    .seal{
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+}
+
+
+/* 当屏幕大于 767时 */
+@media (min-width: 980px){
+	.main{
+	   width: 1000px;
+	   background: url(../img/backgroundImg2.jpg);
+	   background-size: 100% 100%;
+	   margin: 0 auto;     
+	   padding-top: 1px;
+	}
+	.mainBox{
+		width: 830px;
+		margin: 100px auto 0px;
+	}
+	.header{
+        width: 100%;
+        padding-top: 60px;
+	}
+	.header span{
+        display: block;
+	}
+	.logo{
+       width: 217px;
+       height: 117px;
+       background: url('../img/ABC.png');
+       background-size: 100% 100%;
+       margin: 0px auto 10px;       
+	}
+	.logoImg{
+	   width: 4.69rem;
+       height: 38px;
+       background: url('../img/abc-english-online.png');
+       background-size: 100% 100%;
+       margin: 0 auto;
+	}
+    .centerTop{
+		width: 90%;
+		margin: 30px auto;
+		padding-left: 5%;	
+		padding-right: 5%;	
+	}
+	.centerTop table{
+		width: 100%;		
+        border-collapse:collapse;
+	}
+	.centerTop table tr{
+		width: 80%;
+		text-align: center;
+	}
+    .centerTop table th{
+    	width: 10%;
+    	height: 60px;
+    	border: 1px solid #87702b;
+    	font-size: 18px;
+    }
+    .centerTop table td{
+    	width: 10%;
+    	height: 35px;
+    	font-size: 12px;
+        border: 1px solid #87702b;
+        font-size: 14px;
+    }
+    .centerTop input{
+    	width: 80%;
+    	outline: none;
+    	border: none;
+    	border-bottom: 1px solid #663300;
+    	background: #fdfcee;
+    	border-radius: 0px;
+    }
+    .appraisalTab{
+    	width: 90%;
+		margin: 60px auto;
+		padding-left: 5%;	
+		padding-right: 5%;
+    }
+    .appraisalTab table{
+    	width:  100%;
+    	border-collapse:collapse;
+    }
+    .centerTop table tr{
+		width:  100%;
+		text-align: center;
+	}
+    .appraisalTab table th{
+    	height: 60px;
+    	font-size: 12px;
+    	border: 1px solid #87702b;
+    }
+    .appraisalTab table td{
+    	height: 60px;
+    	font-size: 12px;
+    	border: 1px solid #87702b;
+    	text-align: center;
+    }
+    .appraisalTab label{
+    	display: inline-block;
+    	width: 10%;
+    	float: left;
+    }
+    .appraisalTab span{
+    	display: inline-block;
+    	width: 96%;
+        margin-left: 2%;
+    	text-align: justify;
+    }  
+
+    .footer{
+    	width: 90%;
+		margin: 30px auto;
+		padding-left: 5%;	
+		padding-right: 5%;
+    }
+    .footer table{
+    	width: 100%;
+    	border-collapse:collapse;
+    }
+    .footer table tr{
+    	width:  100%;
+    	height: 60px;
+    	border: 1px solid #87702b;
+		text-align: center;
+    }
+    .footer table td{
+    	width:  100%;
+    	border: 1px solid #87702b;
+		text-align: center;
+    }
+    .footer table td>p{
+    	display: inline;
+    }
+
+    .footerDiv{
+    	width: 90%;
+		margin: 30px auto 0px;
+		padding-left: 5%;	
+		padding-right: 5%;
+		position: relative;
+		text-align: center;
+    }
+    .operationBtn{
+    	width: 192px;
+    	height: 45px;
+    	color: #dd262a;
+    	border: 2px solid #dd262a;
+    	background: #fdfcee;
+    	font-size: 20px;
+    	border-radius: 5px;
+    }
+    .submitBtn{
+    	width: 242px;
+    	height: 60px;
+    	color: #dd262a;
+    	border: 2px solid #dd262a;
+    	background: #fdfcee;
+    	font-size: 20px;
+    	border-radius: 5px;
+    	margin-top: 30px;
+    	margin-bottom: 120px;
+    }
+
+    .footerDiv input{
+    	width: 100px;
+    	outline: none;
+    	border: none;
+    	border-bottom: 1px solid #663300;
+    	background: #fdfcee;
+    }
+    .footerInput{
+    	width: 600px;
+		height:380px;
+    	text-align: left;
+    	margin: 120px auto 20px;
+    }
+    .footerDiv dt{
+        display: inline;
+    }
+    .footerDiv dd{
+        display: inline;
+    }
+    .seal{
+        position: absolute;
+        right: 30px;
+        top: 20px;
+    }
+
+}

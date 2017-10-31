@@ -1,0 +1,106 @@
+<html>
+<head>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="result.css">
+    <script type="text/javascript">
+        document.documentElement.style.fontSize = innerWidth / 10 + "px";
+        window.onresize = function() {
+            document.documentElement.style.fontSize = innerWidth / 10 + "px";
+        }
+    </script>
+</head>
+<body>
+<div class="main">
+    <div class="mainBox">
+        <div class="header">
+            <span class="logo"></span>
+            <span class="logoImg"></span>
+        </div>
+
+        <div class="centerTop">
+            <table>
+                <tr>
+                    <th colspan="5">学生信息</th>
+                </tr>
+                <tr>
+                    <td>学生姓名</td>
+                    <td>老师姓名</td>
+                    <td>年级</td>
+                    <td>课程</td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="kun" style="text-align: center"></td>
+                    <td><input type="text" value="mia" style="text-align: center"></td>
+                    <td><input type="text" value="" style="text-align: center"></td>
+                    <td>
+                        <input type="text" value="试听课" style="text-align: center">
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="appraisalTab">
+            <table>
+                <from>
+                    <tr>
+                        <th style="width: 10%;">类型</th>
+                        <th colspan="2">英语口语等级评审</th>
+                    </tr>
+
+                    <tr>
+                        <td>发音</td>
+                        <td  style="width: 10%;"><b>5</b>分</td>
+                        <td><span>表达过程中始终灵活的使用各种发音技巧，升降语调，重读弱读，连读等， 能够表达微妙的差异，听者理解毫无障碍。</span></td>
+                    </tr>
+                    <tr>
+                        <td>词汇</td>
+                        <td><b>5</b>分</td>
+                        <td><span>自如得体的使用语法结构，除了出现英语为母语者也会犯的口误外，始终能使用正确的语法结构。</span></tr>
+                    </tr>
+                    <tr>
+                        <td>语法</td>
+                        <td  style="width: 10%;"><b>5</b>分</td>
+                        <td><span>词汇使用丰富，运用自如灵活，表达意思准确，熟练使用非常见的词汇及习语。</span></td>
+                    </tr>
+                    <tr>
+                        <td>流利度</td>
+                        <td><b>5</b>分</td>
+                        <td><span>表达流利，极少出现重复和自我纠正；连贯，衔接手段的使用完全恰当。</span></tr>
+                    </tr>
+                    <tr>
+                        <td>听力理解</td>
+                        <td  style="width: 10%;"><b>5</b>分</td>
+                        <td><span>在语速较快的情况下，能够迅速理解话题的内容；在出现生僻词的情况下可以通过情景猜测和推断出含义。</span></td>
+                    </tr>
+
+                </from>
+            </table>
+        </div>
+
+        <div class="footer">
+            <table>
+                <tr>
+                    <th>口语评测得分</th>
+                </tr>
+                <tr>
+                    <td>此次评测的得分是<p> 25</p>分</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="footerDiv">
+            <div class="footerInput">
+                签名：<input type="text" name="">
+                日期：<input type="text" name="">
+            </div>
+            <dl>
+                <dt>咨询电话：</dt>
+                <dd>400-661-9888 talk.abc.com.cn</dd>
+            </dl>
+            <img src="seal.png" class="seal">
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
