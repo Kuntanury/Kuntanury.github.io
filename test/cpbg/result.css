@@ -61,6 +61,9 @@ button{
 		font-size: 20px;
 
 	}
+	.centerTop th{
+		font-size: 25px;
+	}
 	.centerTop table{
 		width: 100%;
         border-collapse:collapse;
@@ -252,6 +255,9 @@ button{
 		padding-right: 5%;
 		font-size: 20px;
 	}
+	.centerTop th{
+		font-size: 25px;
+	}
 	.centerTop table{
 		width: 100%;
         border-collapse:collapse;
@@ -439,6 +445,9 @@ button{
 		padding-left: 5%;
 		padding-right: 5%;
 		font-size: 20px;
+	}
+	.centerTop th{
+		font-size: 25px;
 	}
 	.centerTop table{
 		width: 100%;
