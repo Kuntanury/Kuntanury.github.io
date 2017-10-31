@@ -23,7 +23,7 @@ button{
 @media (max-width: 767px){
 	.main{
 	   width: 100%;
-	   background: url('/img/backgroundImg2.jpg');
+	   background: url('img/backgroundImg2.jpg');
 	   background-size: 100% 100%;
 	   margin: 0 auto;
 	   padding-top: 1px;
@@ -42,14 +42,14 @@ button{
 	.logo{
        width: 90px;
        height: 50px;
-       background: url('/img/ABC2.png');
+       background: url('img/ABC2.png');
        background-size: 100% 100%;
        margin: 0px auto 10px;
 	}
 	.logoImg{
 	   width: 200px;
        height: 18px;
-       background: url('/img/abc-english-online2.png');
+       background: url('img/abc-english-online2.png');
        background-size: 100% 100%;
        margin: 0 auto;
 	}
@@ -218,7 +218,7 @@ button{
 @media  (min-width: 768px) and (max-width: 979px) {
 	.main{
 	   width: 100%;
-	   background: url('/img/backgroundImg2.jpg');
+	   background: url('img/backgroundImg2.jpg');
 	   background-size: 100% 100%;
 	   margin: 0 auto;
 	   overflow: hidden;
@@ -237,14 +237,14 @@ button{
 	.logo{
        width: 180px;
        height: 90px;
-       background: url('/img/ABC.png');
+       background: url('img/ABC.png');
        background-size: 100% 100%;
        margin: 0px auto 10px;
 	}
 	.logoImg{
 	   width: 400px;
        height: 30px;
-       background: url('/img/abc-english-online.png');
+       background: url('img/abc-english-online.png');
        background-size: 100% 100%;
        margin: 0 auto;
 	}
@@ -409,7 +409,7 @@ button{
 @media (min-width: 980px){
 	.main{
 	   width: 1000px;
-	   background: url('/img/backgroundImg2.jpg');
+	   background: url('img/backgroundImg2.jpg');
 	   background-size: 100% 100%;
 	   margin: 0 auto;
 	   padding-top: 1px;
@@ -428,14 +428,14 @@ button{
 	.logo{
        width: 217px;
        height: 117px;
-       background: url('/img/ABC.png');
+       background: url('img/ABC.png');
        background-size: 100% 100%;
        margin: 0px auto 10px;
 	}
 	.logoImg{
 	   width: 4.69rem;
        height: 38px;
-       background: url('/img/abc-english-online.png');
+       background: url('img/abc-english-online.png');
        background-size: 100% 100%;
        margin: 0 auto;
 	}
