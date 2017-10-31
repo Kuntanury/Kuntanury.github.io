@@ -65,20 +65,22 @@ button{
 	}
 	.centerTop table tr{
 		text-align: center;
+		font-size: 18px;
+
 	}
     .centerTop table th{
     	width: 10%;
     	height: 45px;
-    	font-size: 10px;
+    	font-size: 14px;
     	border: 1px solid #87702b;
-    	font-size: 18px;
+    	font-size: 20px;
     }
     .centerTop table td{
     	width: 10%;
     	height: 40px;
-    	font-size: 12px;
+    	font-size: 14px;
         border: 1px solid #87702b;
-        font-size: 14px;
+        font-size: 18px;
     }
     .centerTop input{
     	width: 80%;
@@ -87,6 +89,7 @@ button{
     	border-bottom: 1px solid #663300;
     	background: #fdfcee;
     	border-radius: 0px;
+			font-size: 14px;
     }
 
     .appraisalTab{
@@ -103,6 +106,7 @@ button{
     .centerTop table tr{
 		width:  100%;
 		text-align: center;
+
 	}
     .appraisalTab table th{
     	height: 50px;
@@ -243,42 +247,44 @@ button{
        background-size: 100% 100%;
        margin: 0 auto;
 	}
-    .centerTop{
-		width: 90%;
-		margin: 30px auto;
-		padding-left: 5%;
-		padding-right: 5%;
+	.centerTop{
+	width: 90%;
+	margin: 20px auto;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.centerTop table{
+	width: 100%;
+			border-collapse:collapse;
+}
+.centerTop table tr{
+	text-align: center;
+	font-size: 18px;
+
+}
+	.centerTop table th{
+		width: 10%;
+		height: 45px;
+		font-size: 14px;
+		border: 1px solid #87702b;
+		font-size: 20px;
 	}
-	.centerTop table{
-		width: 100%;
-        border-collapse:collapse;
+	.centerTop table td{
+		width: 10%;
+		height: 40px;
+		font-size: 14px;
+			border: 1px solid #87702b;
+			font-size: 18px;
 	}
-	.centerTop table tr{
+	.centerTop input{
 		width: 80%;
-		text-align: center;
+		outline: none;
+		border: none;
+		border-bottom: 1px solid #663300;
+		background: #fdfcee;
+		border-radius: 0px;
+		font-size: 14px;
 	}
-    .centerTop table th{
-    	width: 10%;
-    	height: 50px;
-    	font-size: 10px;
-    	border: 1px solid #87702b;
-    	font-size: 18px;
-    }
-    .centerTop table td{
-    	width: 10%;
-    	height: 40px;
-    	font-size: 12px;
-        border: 1px solid #87702b;
-        font-size: 14px;
-    }
-    .centerTop input{
-    	width: 80%;
-    	outline: none;
-    	border: none;
-    	border-bottom: 1px solid #663300;
-    	background: #fdfcee;
-    	border-radius: 0px;
-    }
 
     .appraisalTab{
     	width: 90%;
@@ -430,41 +436,44 @@ button{
        background-size: 100% 100%;
        margin: 0 auto;
 	}
-    .centerTop{
-		width: 90%;
-		margin: 30px auto;
-		padding-left: 5%;
-		padding-right: 5%;
+	.centerTop{
+	width: 90%;
+	margin: 20px auto;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.centerTop table{
+	width: 100%;
+			border-collapse:collapse;
+}
+.centerTop table tr{
+	text-align: center;
+	font-size: 18px;
+
+}
+	.centerTop table th{
+		width: 10%;
+		height: 45px;
+		font-size: 14px;
+		border: 1px solid #87702b;
+		font-size: 20px;
 	}
-	.centerTop table{
-		width: 100%;
-        border-collapse:collapse;
+	.centerTop table td{
+		width: 10%;
+		height: 40px;
+		font-size: 14px;
+			border: 1px solid #87702b;
+			font-size: 18px;
 	}
-	.centerTop table tr{
+	.centerTop input{
 		width: 80%;
-		text-align: center;
+		outline: none;
+		border: none;
+		border-bottom: 1px solid #663300;
+		background: #fdfcee;
+		border-radius: 0px;
+		font-size: 14px;
 	}
-    .centerTop table th{
-    	width: 10%;
-    	height: 60px;
-    	border: 1px solid #87702b;
-    	font-size: 18px;
-    }
-    .centerTop table td{
-    	width: 10%;
-    	height: 35px;
-    	font-size: 12px;
-        border: 1px solid #87702b;
-        font-size: 14px;
-    }
-    .centerTop input{
-    	width: 80%;
-    	outline: none;
-    	border: none;
-    	border-bottom: 1px solid #663300;
-    	background: #fdfcee;
-    	border-radius: 0px;
-    }
     .appraisalTab{
     	width: 90%;
 		margin: 60px auto;
