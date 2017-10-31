@@ -65,7 +65,7 @@ button{
 	}
 	.centerTop table tr{
 		text-align: center;
-		font-size: 18px;
+		font-size: 40px;
 
 	}
 	.centerTop table tr th{
@@ -111,7 +111,7 @@ button{
     .centerTop table tr{
 		width:  100%;
 		text-align: center;
-
+		font-size: 40px;
 	}
 	.centerTop table tr th{
 		text-align: center;
@@ -315,6 +315,7 @@ button{
     .centerTop table tr{
 		width:  100%;
 		text-align: center;
+		font-size: 40px;
 	}
 	.centerTop table tr th{
 		text-align: center;
@@ -513,6 +514,7 @@ button{
     .centerTop table tr{
 		width:  100%;
 		text-align: center;
+		font-size: 40px;
 	}
 	.centerTop table tr th{
 		text-align: center;
