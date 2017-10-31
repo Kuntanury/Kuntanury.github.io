@@ -531,11 +531,13 @@ button{
     	height: 60px;
     	border: 1px solid #87702b;
 		text-align: center;
+		font-size: 30px;
     }
     .footer table td{
     	width:  100%;
     	border: 1px solid #87702b;
 		text-align: center;
+		font-size: 30px;
     }
     .footer table td>p{
     	display: inline;
