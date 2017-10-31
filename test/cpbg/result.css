@@ -8,7 +8,7 @@
 }
 body{
 	background: #f2f2f2;
-	font-size: 18px;
+	font-size: 12px;
 	font-family: "微软雅黑";
 }
 input{
@@ -65,25 +65,18 @@ button{
 	}
 	.centerTop table tr{
 		text-align: center;
-		font-size: 40px;
-
 	}
-	.centerTop table tr th{
-		text-align: center;
-		font-size: 40px;
-
-	}
-	.centerTop table th{
-		width: 10%;
-		height: 45px;
-		font-size: 40px;
-		border: 1px solid #87702b;
-		font-size: 40px;
-	}
+    .centerTop table th{
+    	width: 10%;
+    	height: 45px;
+    	font-size: 10px;
+    	border: 1px solid #87702b;
+    	font-size: 18px;
+    }
     .centerTop table td{
     	width: 10%;
     	height: 40px;
-    	font-size: 14px;
+    	font-size: 16px;
         border: 1px solid #87702b;
         font-size: 18px;
     }
@@ -94,7 +87,6 @@ button{
     	border-bottom: 1px solid #663300;
     	background: #fdfcee;
     	border-radius: 0px;
-			font-size: 14px;
     }
 
     .appraisalTab{
@@ -111,21 +103,15 @@ button{
     .centerTop table tr{
 		width:  100%;
 		text-align: center;
-		font-size: 40px;
-	}
-	.centerTop table tr th{
-		text-align: center;
-		font-size: 40px;
-
 	}
     .appraisalTab table th{
     	height: 50px;
-    	font-size: 40px;
+    	font-size: 14px;
     	border: 1px solid #87702b;
     }
     .appraisalTab table td{
     	height: 60px;
-    	font-size: 18px;
+    	font-size: 16px;
     	border: 1px solid #87702b;
     }
     .appraisalTab label{
@@ -257,50 +243,42 @@ button{
        background-size: 100% 100%;
        margin: 0 auto;
 	}
-	.centerTop{
-	width: 90%;
-	margin: 20px auto;
-	padding-left: 5%;
-	padding-right: 5%;
-	font-size: 40px;
-}
-.centerTop table{
-	width: 100%;
-			border-collapse:collapse;
-}
-.centerTop table tr{
-	text-align: center;
-	font-size: 40px;
-
-}
-.centerTop table tr th{
-	text-align: center;
-	font-size: 40px;
-
-}
-	.centerTop table th{
-		width: 10%;
-		height: 45px;
-		font-size: 40px;
-		border: 1px solid #87702b;
-		font-size: 40px;
+    .centerTop{
+		width: 90%;
+		margin: 30px auto;
+		padding-left: 5%;
+		padding-right: 5%;
 	}
-	.centerTop table td{
-		width: 10%;
-		height: 40px;
-		font-size: 40px;
-			border: 1px solid #87702b;
-			font-size: 40px;
+	.centerTop table{
+		width: 100%;
+        border-collapse:collapse;
 	}
-	.centerTop input{
+	.centerTop table tr{
 		width: 80%;
-		outline: none;
-		border: none;
-		border-bottom: 1px solid #663300;
-		background: #fdfcee;
-		border-radius: 0px;
-		font-size: 40px;
+		text-align: center;
 	}
+    .centerTop table th{
+    	width: 10%;
+    	height: 50px;
+    	font-size: 10px;
+    	border: 1px solid #87702b;
+    	font-size: 18px;
+    }
+    .centerTop table td{
+    	width: 10%;
+    	height: 40px;
+    	font-size: 16px;
+        border: 1px solid #87702b;
+        font-size: 18px;
+    }
+    .centerTop input{
+    	width: 80%;
+    	outline: none;
+    	border: none;
+    	border-bottom: 1px solid #663300;
+    	background: #fdfcee;
+    	border-radius: 0px;
+    }
 
     .appraisalTab{
     	width: 90%;
@@ -315,21 +293,15 @@ button{
     .centerTop table tr{
 		width:  100%;
 		text-align: center;
-		font-size: 40px;
-	}
-	.centerTop table tr th{
-		text-align: center;
-		font-size: 40px;
-
 	}
     .appraisalTab table th{
     	height: 50px;
-    	font-size: 40px;
+    	font-size: 12px;
     	border: 1px solid #87702b;
     }
     .appraisalTab table td{
     	height: 60px;
-    	font-size: 40px;
+    	font-size: 14px;
     	border: 1px solid #87702b;
     	text-align: center;
     }
@@ -385,7 +357,7 @@ button{
     	color: #dd262a;
     	border: 2px solid #dd262a;
     	background: #fdfcee;
-    	font-size: 40px;
+    	font-size: 20px;
     	border-radius: 5px;
     }
     .submitBtn{
@@ -394,7 +366,7 @@ button{
     	color: #dd262a;
     	border: 2px solid #dd262a;
     	background: #fdfcee;
-    	font-size: 40px;
+    	font-size: 20px;
     	border-radius: 5px;
     	margin: 30px auto 150px;
     }
@@ -458,49 +430,41 @@ button{
        background-size: 100% 100%;
        margin: 0 auto;
 	}
-	.centerTop{
-	width: 90%;
-	margin: 20px auto;
-	padding-left: 5%;
-	padding-right: 5%;
-}
-.centerTop table{
-	width: 100%;
-			border-collapse:collapse;
-}
-.centerTop table tr{
-	text-align: center;
-	font-size: 40px;
-
-}
-.centerTop table tr th{
-	text-align: center;
-	font-size: 40px;
-
-}
-.centerTop table th{
-	width: 10%;
-	height: 45px;
-	font-size: 40px;
-	border: 1px solid #87702b;
-	font-size: 40px;
-}
-	.centerTop table td{
-		width: 10%;
-		height: 40px;
-		font-size: 40px;
-			border: 1px solid #87702b;
-			font-size: 40px;
+    .centerTop{
+		width: 90%;
+		margin: 30px auto;
+		padding-left: 5%;
+		padding-right: 5%;
 	}
-	.centerTop input{
+	.centerTop table{
+		width: 100%;
+        border-collapse:collapse;
+	}
+	.centerTop table tr{
 		width: 80%;
-		outline: none;
-		border: none;
-		border-bottom: 1px solid #663300;
-		background: #fdfcee;
-		border-radius: 0px;
-		font-size: 40px;
+		text-align: center;
 	}
+    .centerTop table th{
+    	width: 10%;
+    	height: 60px;
+    	border: 1px solid #87702b;
+    	font-size: 18px;
+    }
+    .centerTop table td{
+    	width: 10%;
+    	height: 35px;
+    	font-size: 16px;
+        border: 1px solid #87702b;
+        font-size: 18px;
+    }
+    .centerTop input{
+    	width: 80%;
+    	outline: none;
+    	border: none;
+    	border-bottom: 1px solid #663300;
+    	background: #fdfcee;
+    	border-radius: 0px;
+    }
     .appraisalTab{
     	width: 90%;
 		margin: 60px auto;
@@ -514,21 +478,15 @@ button{
     .centerTop table tr{
 		width:  100%;
 		text-align: center;
-		font-size: 40px;
-	}
-	.centerTop table tr th{
-		text-align: center;
-		font-size: 40px;
-
 	}
     .appraisalTab table th{
     	height: 60px;
-    	font-size: 40px;
+    	font-size: 12px;
     	border: 1px solid #87702b;
     }
     .appraisalTab table td{
     	height: 60px;
-    	font-size: 40px;
+    	font-size: 12px;
     	border: 1px solid #87702b;
     	text-align: center;
     }
@@ -583,7 +541,7 @@ button{
     	color: #dd262a;
     	border: 2px solid #dd262a;
     	background: #fdfcee;
-    	font-size: 40px;
+    	font-size: 20px;
     	border-radius: 5px;
     }
     .submitBtn{
@@ -592,7 +550,7 @@ button{
     	color: #dd262a;
     	border: 2px solid #dd262a;
     	background: #fdfcee;
-    	font-size: 40px;
+    	font-size: 20px;
     	border-radius: 5px;
     	margin-top: 30px;
     	margin-bottom: 120px;
