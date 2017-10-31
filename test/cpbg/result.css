@@ -23,7 +23,7 @@ button{
 @media (max-width: 767px){
 	.main{
 	   width: 100%;
-	   background: url(/img/backgroundImg2.jpg);
+	   background: url('/img/backgroundImg2.jpg');
 	   background-size: 100% 100%;
 	   margin: 0 auto;
 	   padding-top: 1px;
@@ -79,7 +79,7 @@ button{
     	font-size: 18px;
     }
     .centerTop table td{
-    	/*width: 10%;*/
+    	width: 10%;
     	height: 40px;
     	font-size: 40px;
         border: 1px solid #87702b;
@@ -218,7 +218,7 @@ button{
 @media  (min-width: 768px) and (max-width: 979px) {
 	.main{
 	   width: 100%;
-	   background: url(/img/backgroundImg2.jpg);
+	   background: url('/img/backgroundImg2.jpg');
 	   background-size: 100% 100%;
 	   margin: 0 auto;
 	   overflow: hidden;
@@ -274,7 +274,7 @@ button{
     	font-size: 18px;
     }
     .centerTop table td{
-    	/*width: 10%;*/
+    	width: 10%;
     	height: 40px;
     	font-size: 40px;
         border: 1px solid #87702b;
@@ -409,7 +409,7 @@ button{
 @media (min-width: 980px){
 	.main{
 	   width: 1000px;
-	   background: url(/img/backgroundImg2.jpg);
+	   background: url('/img/backgroundImg2.jpg');
 	   background-size: 100% 100%;
 	   margin: 0 auto;
 	   padding-top: 1px;
@@ -458,20 +458,20 @@ button{
 		text-align: center;
 	}
     .centerTop table th{
-    	/*width: 10%;*/
+    	width: 10%;
     	height: 60px;
     	border: 1px solid #87702b;
     	font-size: 40px;
     }
     .centerTop table td{
-    	/*width: 10%;*/
+    	width: 10%;
     	height: 35px;
     	font-size: 30px;
         border: 1px solid #87702b;
         font-size: 30px;
     }
     .centerTop input{
-    	/*width: 80%;*/
+    	width: 80%;
     	outline: none;
     	border: none;
     	border-bottom: 1px solid #663300;
