@@ -65,6 +65,11 @@ button{
 	}
 	.centerTop table tr{
 		text-align: center;
+		font-size: 18px;
+
+	}
+	.centerTop table tr th{
+		text-align: center;
 		font-size: 40px;
 
 	}
@@ -106,7 +111,12 @@ button{
     .centerTop table tr{
 		width:  100%;
 		text-align: center;
+
+	}
+	.centerTop table tr th{
+		text-align: center;
 		font-size: 40px;
+
 	}
     .appraisalTab table th{
     	height: 50px;
@@ -263,6 +273,11 @@ button{
 	font-size: 40px;
 
 }
+.centerTop table tr th{
+	text-align: center;
+	font-size: 40px;
+
+}
 	.centerTop table th{
 		width: 10%;
 		height: 45px;
@@ -300,7 +315,11 @@ button{
     .centerTop table tr{
 		width:  100%;
 		text-align: center;
+	}
+	.centerTop table tr th{
+		text-align: center;
 		font-size: 40px;
+
 	}
     .appraisalTab table th{
     	height: 50px;
@@ -453,6 +472,11 @@ button{
 	font-size: 40px;
 
 }
+.centerTop table tr th{
+	text-align: center;
+	font-size: 40px;
+
+}
 .centerTop table th{
 	width: 10%;
 	height: 45px;
@@ -488,6 +512,9 @@ button{
     }
     .centerTop table tr{
 		width:  100%;
+		text-align: center;
+	}
+	.centerTop table tr th{
 		text-align: center;
 		font-size: 40px;
 
