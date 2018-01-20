@@ -2,7 +2,7 @@
 layout:     post
 title:      "The Swift Programming Language (Swift 4) 中文版 1"
 subtitle:   "关于Swift"
-date:       2017-01-20 10:00:00
+date:       2018-01-20 10:00:00
 author:     "Kuntanury"
 header-img: "img/post_bg_swift.png"
 catalog:    true

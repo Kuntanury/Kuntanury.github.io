@@ -2,7 +2,7 @@
 layout:     post
 title:      "2018国内直连搬瓦工机房测试 - Bandwagon Host Test From China"
 subtitle:   ""
-date:       2018-01-01 08:00:00
+date:       2018-01-20 08:00:00
 author:     "Kuntanury"
 header-img: "img/post_bg_bandwagon.png"
 catalog:    true
