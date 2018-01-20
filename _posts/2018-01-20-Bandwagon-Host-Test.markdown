@@ -12,32 +12,32 @@ tags:
 ---
 ### US: Los Angeles, California (DC2 QNET) [USCA_2]
 
-#### 203.000 ms
+**203.000 ms**
 
-##US: Los Angeles, California (DC3 CN2) [USCA_3] (current) – Premium bandwidth multiplier: 0.33x
+### US: Los Angeles, California (DC3 CN2) [USCA_3] (current) – Premium bandwidth multiplier: 0.33x
 
-175.032 ms
+**175.032 ms**
 
-##US: Los Angeles, California (DC4 MCOM) [USCA_4]
+### US: Los Angeles, California (DC4 MCOM) [USCA_4]
 
-173.879 ms
+**173.879 ms**
 
-##US: Los Angeles, California (DC8 CN2) [USCA_8] – Premium bandwidth multiplier: 0.33x
+### US: Los Angeles, California (DC8 CN2) [USCA_8] – Premium bandwidth multiplier: 0.33x
 
-211.873 ms
+**211.873 ms**
 
-##US: Fremont, California [USCA_FMT]
+### US: Fremont, California [USCA_FMT]
 
-190.546 ms
+**190.546 ms**
 
-##US: New York [USNY_2]
+### US: New York [USNY_2]
 
-328.023 ms
+**328.023 ms**
 
-##CA: British Columbia, Vancouver [CABC_1]
+### CA: British Columbia, Vancouver [CABC_1]
 
-284.899 ms
+**284.899 ms**
 
-##EU: Amsterdam, Netherlands [EUNL_3]
+### EU: Amsterdam, Netherlands [EUNL_3]
 
-262.387 ms
+**262.387 ms**
