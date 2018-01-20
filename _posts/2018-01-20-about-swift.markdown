@@ -2,19 +2,16 @@
 layout:     post
 title:      "The Swift Programming Language (Swift 4) 中文版 1"
 subtitle:   "关于Swift"
-date:       2017-07-10 18:00:00
+date:       2017-01-20 10:00:00
 author:     "Kuntanury"
 header-img: "img/post_bg_swift.png"
 catalog:    true
 tags:
     - Swift
+    - Swift翻译
     - Translate
 ---
 # 关于 Swift
-
-> **提示**
->
-> 此文档仅包含在开发中遇到的关于 API 或者技术的基础内容，由于本文内容可能会有变动，所以根据本文实现的软件应在最新的操作系统上完成测试。
 
 Swift 不管是在手机、桌面，服务器终端或者任何其他可以运行代码的终端上，都是编写软件的不二选择。它将苹果公司悠久的工程师文化 和开源社区的贡献这两个现代编程语言中最精华的部分结合在一起，诞生了这么一门安全，快速、交互性强的编程语言，在优化编译保持高性能的同时兼顾了简化语言方便开发。
 
