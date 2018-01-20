@@ -10,7 +10,7 @@ tags:
     - 服务器
 
 ---
-##US: Los Angeles, California (DC2 QNET) [USCA_2]
+## US: Los Angeles, California (DC2 QNET) [USCA_2]
 
 203.000 ms
 
