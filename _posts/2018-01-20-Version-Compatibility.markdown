@@ -9,7 +9,7 @@ catalog:    true
 tags:
     - Swift
     - Swift翻译
-    - Translate
+
 ---
 # 版本兼容
 
