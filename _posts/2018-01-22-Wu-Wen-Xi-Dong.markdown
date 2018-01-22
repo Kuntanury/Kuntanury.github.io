@@ -1,17 +1,15 @@
 ---
 layout:     post
-title:      "《无问西东》补课"
+title:      "《无问西东》补习"
 subtitle:   ""
 date:       2018-01-22 11:00:00
 author:     "Kuntanury"
-header-img: "img/post_bg_swift.png"
+header-img: "img/post_bg_wwxd.png"
 catalog:    true
 tags:
     - 电影
 
 ---
-# 《无问西东》<del>傻</del>媳妇补课
-
 最近看了《无问西东》，发现对于老婆这种接近历史盲的人，时间线有点混乱，特意整理一下电影中的时间线和其中的大事件，提高一下老婆的姿势水平。爱你呦～
 
 ## 1840 ～ 1912 晚清
@@ -46,6 +44,8 @@ tags:
 
 
 ## 《无问西东》故事整体时间线
+
+
 
 * 1920年：梅老师点醒了迷茫中的吴岭澜
 
