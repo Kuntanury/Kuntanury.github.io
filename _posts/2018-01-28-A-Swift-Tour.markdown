@@ -833,4 +833,4 @@ anyCommonElements([1, 2, 3], [3])
 >
 > 修改 `anyCommonElements(_:_:)` 函数，让它返回一个两个集合中共有的相同元素的数组。
 
-缩写成 `<T: Equatable>` 和 ` Writing <T: Equatable> ` 是一样的。
+缩写成 `<T: Equatable>` 和 `Writing <T: Equatable>` 是一样的。
