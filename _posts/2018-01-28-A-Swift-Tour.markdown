@@ -29,7 +29,7 @@ print("Hello, world!")
 >
 >[下载Playground](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.playground.zip)
 
-### 简单值
+#### 简单值
 用 `let ` 声明常量，用 `var` 声明变量。常量在定义时不需要初始值，但是后续只能对它赋一次值。也就是说，你可以用常量来定义一个在很多地方用到的统一的值：
 
 ~~~swift
