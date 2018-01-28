@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "The Swift Programming Language (Swift 4) 中文版 2"
-subtitle:   "版本兼容 - Version Compatibility"
+subtitle:   "Version Compatibility - 版本兼容"
 date:       2018-01-20 18:00:00
 author:     "Kuntanury"
 header-img: "img/post_bg_swift.png"
