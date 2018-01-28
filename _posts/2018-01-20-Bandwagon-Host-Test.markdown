@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "2018国内直连搬瓦工机房测试 - Bandwagon Host Test From China"
+title:      "Bandwagon Host Test From China - 2018国内直连搬瓦工机房测试"
 subtitle:   ""
 date:       2018-01-20 08:00:00
 author:     "Kuntanury"
