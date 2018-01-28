@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "The Swift Programming Language (Swift 4) 中文版 3"
-subtitle:   "版本兼容"
+subtitle:   "管中窥豹"
 date:       2018-01-28 09:00:00
 author:     "Kuntanury"
 header-img: "img/post_bg_swift.png"
@@ -15,9 +15,9 @@ tags:
 
 依照传统，使用新语言写的第一个程序都应该是在屏幕上打印 “Hello, world!” ，用 Swift ，一行搞定：
 
-```
+~~~ swift
 print("Hello, world!")
-```
+~~~
 
 如果你曾经写过 C 或者 Objective-C 代码，那么你对 Swift 的语法不会感觉到陌生，在 Swift 中，上面的一行代码就是一个完整的程序，不需要引入单独的库或者I/O模块或者字符串处理神马的，因为写在全局范围的代码被当作程序的入口，所以你连 main() 函数都省了，也不用在每句话结尾写分号了。
 
@@ -26,7 +26,8 @@ print("Hello, world!")
 > **备注**
 >
 > 为了获得最佳体验，推荐用 Xcode 创建 playground 来试验本章内容，Playgrounds 允许你编辑代码并立即看到代码的运算结果。
-> [下载Playground](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.playground.zip)
+>
+>[下载Playground](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.playground.zip)
 
 ## 简单值
 用 ``` let ``` 声明常量，用 ``` var ``` 声明变量。常量在定义时不需要初始值，但是后续只能对它赋一次值。也就是说，你可以用常量来定义一个在很多地方用到的统一的值：
