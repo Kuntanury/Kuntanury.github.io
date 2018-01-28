@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "The Swift Programming Language (Swift 4) 中文版 3"
-subtitle:   "管中窥豹"
+subtitle:   "管中窥豹 - A Swift Tour"
 date:       2018-01-28 09:00:00
 author:     "Kuntanury"
 header-img: "img/post_bg_swift.png"
