@@ -15,7 +15,7 @@ tags:
 
 依照传统，使用新语言写的第一个程序都应该是在屏幕上打印 “Hello, world!” ，用 Swift ，一行搞定：
 
-~~~ swift
+~~~swift
 print("Hello, world!")
 ~~~
 
@@ -30,23 +30,23 @@ print("Hello, world!")
 >[下载Playground](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.playground.zip)
 
 ## 简单值
-用 ``` let ``` 声明常量，用 ``` var ``` 声明变量。常量在定义时不需要初始值，但是后续只能对它赋一次值。也就是说，你可以用常量来定义一个在很多地方用到的统一的值：
+用 ~~~swift let ~~~ 声明常量，用 ~~~swift var ~~~ 声明变量。常量在定义时不需要初始值，但是后续只能对它赋一次值。也就是说，你可以用常量来定义一个在很多地方用到的统一的值：
 
-```
+~~~swift
 var myVariable = 42
 myVariable = 50
 let myConstant = 42
-```
+~~~
 
-常量或变量的类型必须和赋值类型一样，然而，你却不需要写明类型，因为编译器可以根据你赋值的类型来推断他们类型：比如在上面的例子中， ``` myVariable ``` 初始化的值为整型数字，所以编译器推断它的类型为整型。
+常量或变量的类型必须和赋值类型一样，然而，你却不需要写明类型，因为编译器可以根据你赋值的类型来推断他们类型：比如在上面的例子中， ~~~swift myVariable ~~~ 初始化的值为整型数字，所以编译器推断它的类型为整型。
 
 如果初始化值未能提供足够的推断信息（或者没有初始值），可以显式的将类型写在变量的后面，用冒号与变量隔开：
 
-```
+~~~swift
 let implicitInteger = 70
 let implicitDouble = 70.0
 let explicitDouble: Double = 70
-```
+~~~
 
 > **小试身手**
 >
@@ -54,11 +54,11 @@ let explicitDouble: Double = 70
 
 值永远不会隐式转换为其他类型。如果你需要把一个值转换成不同类型，可以用显式类型转换来取得目标类型：
 
-```
+~~~Swift
 let label = "The width is "
 let width = 94
 let widthLabel = label + String(width)
-```
+~~~
 
 小试身手
 
