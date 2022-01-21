@@ -1,11 +1,11 @@
 # Site settings
 title: Kuntanury
-SEOTitle: 田坤的博客 | Kuntanury Blog
+SEOTitle: 博客 | Blog
 header-img: img/home-bg.png
 email: kuntanury@gmail.com
 description: "iOS Developer"
-keyword: "田坤, Kuntanury"
-url: "kuntanury.com"              # your host, for absolute URL
+keyword: ""
+url: ""              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
